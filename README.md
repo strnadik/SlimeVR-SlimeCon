@@ -46,9 +46,9 @@ For the battery, we're gonna sandwich it into the 2-via connection on TP4056. So
 
 I recommend testing it out at this stage before putting it into the shell. Plug it into your PC through the Wemos D1 USB-C. Go to the firmware flashing site and [use these settings (embed into the link)](https://slimevr-firmware.bscotch.ca/?config=eyJyZWxlYXNlIjoiU2xpbWVWUi9tYWluIiwiYm9hcmQiOnsidHlwZSI6IkJPQVJEX1dFTU9TRDFNSU5JIiwicGlucyI6eyJpbXVTREEiOiJEMiIsImltdVNDTCI6IkQxIiwibGVkIjoiMiJ9LCJsZWRJbnZlcnRlZCI6dHJ1ZSwiZW5hYmxlTGVkIjp0cnVlfSwiaW11cyI6W3siZW5hYmxlZCI6dHJ1ZSwidHlwZSI6IklNVV9MU002RFNSIiwicm90YXRpb24iOiIzNjAiLCJpbXVJTlQiOiJENSJ9LHsiZW5hYmxlZCI6ZmFsc2UsInR5cGUiOiJJTVVfQk1JMTYwIiwicm90YXRpb24iOjI3MCwiaW11SU5UIjoiRDYifV0sImJhdHRlcnkiOnsidHlwZSI6IkJBVF9FWFRFUk5BTCIsInJlc2lzdGFuY2UiOjE4MCwicjEiOjEwMCwicjIiOjIyMCwicGluIjoiQTAifSwic3dhcEFkZHJlc3NlcyI6ZmFsc2UsImRlYnVnIjp7InVzZTZBeGlzIjp0cnVlLCJvcHRpbWl6ZVVwZGF0ZXMiOnRydWUsImNvbXBsaWFuY2VNb2RlIjp0cnVlLCJibWkxNjBVc2VUZW1wY2FsIjp0cnVlLCJibWkxNjBUZW1wY2FsRGVidWciOmZhbHNlLCJibWkxNjBVc2VTZW5zY2FsIjp0cnVlfX0)
 
-Keep in mind that for chest/hip straps, you should set the angle to 270.
+Keep in mind that for chest/hip trackers, you should set the angle to 270.
 
-Once flashed, it should appear on your SlimeVR Server. If the battery sense won't show up, touch up on your resistor on both sides, and the A1 on Wemos D1. 
+Once flashed, it should appear on your SlimeVR Server. If the battery sense won't show up, touch up on your resistor on both sides, and the A0 on Wemos D1. 
 
 Now take the bottom part of the shell, and insert the pcb angled like on this photo.
 
